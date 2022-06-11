@@ -72,13 +72,15 @@ def formating_postcode(postcode):
     response = {}
 
     if len(postcode) < 5 or len(postcode) > 7:
-
+        
+        response["formatted_post_code"] = ""
         response["error"] = "PostCode wrong! 5 to 7 characters only!"
 
         return response
     
     if (bool(re.match('^[a-zA-Z0-9]*$',postcode))==False):
-
+        
+        response["formatted_post_code"] = ""
         response["error"] = "PostCode wrong! Special caracters found!"
 
         return response
