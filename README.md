@@ -127,3 +127,11 @@ Error message
     print(data_api)
  ```
  
+## Run tests
+
+**1. Run tests:**
+
+ ```
+ cd library
+ python3 setup.py pytest
+ ```
