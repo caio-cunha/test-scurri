@@ -93,20 +93,3 @@ def formating_postcode(postcode):
     response["message"] = "Formatted..."
 
     return response
-        
-
-if __name__ == '__main__':
-
-    post_code = "b1 1HQ"
-
-    ## Function to format the chosen Postcode.
-    formated_post_code = formating_postcode(post_code)
-
-    ## Function to validate the Postcode formated.
-    validate_post_code = validation_postcode(formated_post_code["formatted_post_code"])
-    
-    if validate_post_code:
-
-        ## Function for get data in the API with Postcodo formated.
-        data = get_data_api(formated_post_code["formatted_post_code"])
-
