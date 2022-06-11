@@ -120,11 +120,16 @@ Error message
  
  postcode = "B1 1HQ"
  
- postcode_formated = formating_postcode(poscode)
+ postcode_formated = formating_postcode(postcode)
  postcode_validated = validation_postcode(postcode_formated["formatted_post_code"])
  if postcode_validated:
     data_api = get_data_api(postcode_formated["formatted_post_code"])
     print(data_api)
+ ```
+ 
+ **6. Run new_file.py:**
+ ```
+ python3 new_file.py
  ```
  
 ## Run tests
