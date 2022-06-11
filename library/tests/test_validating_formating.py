@@ -1,6 +1,6 @@
 import unittest
 import json
-from validating_formating import (
+from postcode.validating_formating import (
     formating_postcode, 
     validation_postcode,
     get_data_api
