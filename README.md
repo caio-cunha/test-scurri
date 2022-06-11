@@ -1,4 +1,51 @@
-# Validar e Formatar PostCode
+# Program that prints the numbers from 1 to 100 (Question 02)
+
+## Functions developmented
+
+> Formatting PostCode choose by user:
+
+Function:
+
+```plaintext
+def print_numbers(n)
+```
+
+Example of use:
+
+```plaintext
+python3 question-02.py
+```
+
+Response:
+
+```plaintext
+Number of 0 untill 100, multiples of 3 print “Three”, multiple of 5 print “Five”, multiples of both 3 and 5 print “ThreeFive”. 
+```
+
+## Install and run project
+
+**1. Create and enter in one folder:**
+ ```
+ mkdir test
+ cd test
+ ```
+ 
+ **2. Clone the projetct:**
+ ```
+ git clone https://github.com/caio-cunha/test-scurri.git
+ ```
+ 
+ **3. Enter project folder:**
+ ```
+ cd test-scurri
+ ```
+ 
+ **4. Run question-02.py:**
+ ```
+ python3 question-02.py
+ ```
+
+# Validar e Formatar PostCode (Question 03)
 
 This lib is for validate, formate, and get data in API http://api.postcodes.io/ about **PostCode** in the United Kingdom.
 
@@ -88,21 +135,11 @@ Error message
 
 ## Install and run project
 
-**1. Create and enter in one folder:**
- ```
- mkdir test
- cd test
- ```
- 
- **2. Clone the projetct:**
- ```
- git clone https://github.com/caio-cunha/test-scurri.git
- ```
- 
- **3. Enter project folder:**
+ **1. Enter project folder:**
  ```
  cd test-scurri
  ```
+  **_NOTE:_** The project already was download in question-02, then is only enter in test_scurri folder...
  
  **4. Create one file python:**
  ```
@@ -137,6 +174,5 @@ Error message
 **1. Run tests:**
 
  ```
- cd library
- python3 setup.py pytest
+ python3 library/setup.py pytest
  ```
